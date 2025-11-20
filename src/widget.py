@@ -13,6 +13,6 @@ def mask_account_card(card_inf: str) -> str:
         )  # Возвращает счет с подменой последних 16 значений
     """Создан модуль widget создана функция mask_account_card"""
 
-    def get_date(data_inf: str) -> str:
-        """Возвращает информацию о дате в формате число.месяц.год"""
-        return f"{data_inf[8:10]}.{data_inf[5:7]}.{data_inf[0:4]}"
+def get_date(data_inf: str) -> str:
+    """Возвращает информацию о дате в формате число.месяц.год"""
+    return f"{data_inf[8:10]}.{data_inf[5:7]}.{data_inf[0:4]}"
